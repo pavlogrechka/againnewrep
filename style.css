@@ -82,3 +82,11 @@ body {
 svg {
   fill: #fff;
 } 
+
+
+.top {
+  display: flex;
+}
+.cards {
+  display: flex;
+}
