@@ -1,0 +1,52 @@
+.tours-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  .header-title {
+    font-size: 36px;
+    color: $main-color;
+  }
+  .header-link {
+    font-size: 16px;
+    color: $secondary-color;
+  }
+}
+
+.tours-cards {
+  display: flex;
+  .a-side {
+    width: 50%;
+  }
+}
+
+.card-img > img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  display: flex;
+
+}
+.side1 {
+  padding: 10px 20px;
+}
+.card-date {
+  color: $secondary-color;
+  margin-bottom: 10px;
+}
+.card-title {
+  font-size: 16px;
+  color: $main-color;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  color: $main-color;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.4;
+}
