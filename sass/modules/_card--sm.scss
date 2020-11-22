@@ -1,0 +1,39 @@
+.card__content-side2--sm {
+  flex-direction: row;
+  width: 40%;
+}
+.card__content-side2--sm > .card__content--price {
+  // margin-top: auto;
+}
+.card__content-side2--sm > .card__content--go {
+}
+.card__block--sm {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.card__block--sm + .card__block--sm {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.card__block--sm > .card__img {
+  line-height: 0;
+  max-width: 300px;
+  min-height: 100px;
+  background: url(../../img/mount-full.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card__content--sm {
+  border: 1px solid #7c7070;
+  display: flex;
+  width: 100%;
+}
+.card__content-side1--sm {
+  padding: 10px 15px;
+  width: 60%;
+}
+.card__content-side2--sm {
+  width: 40%;
+}
