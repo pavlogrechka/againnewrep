@@ -1,10 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 * {
   box-sizing: border-box;
+  color: #fff;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 $content-width: 1000px;
 $main-color: #333333;
-$secondary-color: #A2B503;
+$secondary-color: #a2b503;
 
 body {
   font-size: 14px;

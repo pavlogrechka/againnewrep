@@ -4,19 +4,22 @@
     background-position: center;
     background-size: cover;
   }
-  &__block {
+  &-block {
     &--sm {
       width: 300px;
       display: flex;
       flex-direction: column;
-    }
-    &--sm > .card__img {
-      line-height: 0;
-      max-width: 300px;
-      min-height: 100px;
-      background: url(../../img/mount-full.jpg) no-repeat;
-      background-position: center;
-      background-size: cover;
+      border: 1px solid rgba(117, 103, 103, 0.356);
+      border-radius: 4px;
+
+      > .card__img {
+        line-height: 0;
+        max-width: 300px;
+        min-height: 100px;
+        background: url(../../img/mount-full.jpg) no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
     }
   }
   &__content {
@@ -37,13 +40,10 @@
   }
   &__content-side2 {
     &--sm {
-      
     }
     &--sm > .card__content--price {
-
     }
     &--sm > .card__content--go {
-
     }
   }
 }
