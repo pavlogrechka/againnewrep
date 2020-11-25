@@ -1,0 +1,51 @@
+.clients {
+  color: $main-color;
+}
+
+.clients-review {
+  &__container {
+    display: flex;
+    margin-bottom: 50px;
+  }
+
+  &__item {
+    padding: 30px;
+  }
+
+  &__head {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  &__img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    // &-wrap {
+    // }
+  }
+
+  &__info {
+    padding-left: 20px;
+  }
+
+  &__title {
+    // margin-bottom: 4px;
+  }
+
+  &__travel {
+    // margin-bottom: 4px;
+  }
+
+  &__social {
+  }
+
+  &__text {
+    font-size: 12px;
+    font-style: italic;
+    color: #333;
+  }
+}

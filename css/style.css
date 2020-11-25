@@ -2,11 +2,21 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+html {
   color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.6;
 }
 
 ul li {
   list-style: none;
+}
+
+img {
+  max-width: 100%;
 }
 
 a {
@@ -15,7 +25,6 @@ a {
 }
 
 body {
-  font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -23,6 +32,33 @@ body {
   margin: 0 auto;
   padding: 30px 50px;
   max-width: 1000px;
+}
+
+.title-big {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  font-style: normal;
+}
+
+.title-small {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.2px;
+  color: #222;
+}
+
+.fs-normal {
+  font-style: normal;
+}
+
+.c-white {
+  color: #fff;
+}
+
+.c-grey {
+  color: #777;
 }
 
 .banner {
@@ -327,5 +363,108 @@ a:not(:last-child) {
 .card__content-side1--sm {
   display: inline-block;
   padding: 10px 15px;
+}
+
+.clients {
+  color: #333333;
+}
+
+.clients-review__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.clients-review__item {
+  padding: 30px;
+}
+
+.clients-review__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.clients-review__img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.clients-review__info {
+  padding-left: 20px;
+}
+
+.clients-review__text {
+  font-size: 12px;
+  font-style: italic;
+  color: #333;
+}
+
+.travel__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.travel__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.travel__img-wrap {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 550px;
+          flex: 0 0 550px;
+}
+
+.travel__content {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.travel__info {
+  padding: 50px;
+}
+
+.travel__date {
+  color: #a2b503;
+}
+
+.travel__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.travel__price {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  text-align: center;
+  padding: 7px;
+  background-color: #333;
+}
+
+.travel__submit {
+  width: 180px;
+  background-color: #a2b503;
+  padding: 7px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

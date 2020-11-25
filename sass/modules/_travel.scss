@@ -1,0 +1,53 @@
+.travel {
+  &__item {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  //IMGGGG!!!!!!!!!!! // TODO: sdffsf
+  &__img {
+    // height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    &-wrap {
+      // width: 600px;
+      position: relative;
+      flex: 0 0 550px;
+      // height: ;
+    }
+  }
+
+  &__content {
+    flex: auto;
+  }
+
+  &__info {
+    padding: 50px;
+  }
+
+  &__date {
+    color: $secondary-color;
+  }
+
+  &__footer {
+    display: flex;
+  }
+
+  &__price {
+    flex: auto;
+    text-align: center;
+    padding: 7px;
+    background-color: #333;
+  }
+
+  &__submit {
+    width: 180px;
+    background-color: $secondary-color;
+    padding: 7px;
+    text-align: center;
+  }
+}

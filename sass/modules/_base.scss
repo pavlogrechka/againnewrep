@@ -2,10 +2,18 @@
 
 * {
   box-sizing: border-box;
+}
+html {
   color: #fff;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 1.6;
 }
 ul li {
   list-style: none;
+}
+img {
+  max-width: 100%;
 }
 a {
   text-decoration: none;
@@ -16,7 +24,7 @@ $main-color: #333333;
 $secondary-color: #a2b503;
 
 body {
-  font-size: 14px;
+  // font-size: 14px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -24,4 +32,30 @@ body {
   margin: 0 auto;
   padding: 30px 50px;
   max-width: $content-width;
+}
+
+.title-big {
+  font-size: 28px;
+  font-weight: 700;
+  color: #222;
+  font-style: normal;
+}
+
+.title-small {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: -0.2px;
+  color: #222;
+}
+
+.fs-normal {
+  font-style: normal;
+}
+.c-white {
+  color: #fff;
+}
+
+.c-grey {
+  color: #777;
 }
