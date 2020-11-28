@@ -14,6 +14,7 @@
   display: flex;
 }
 .nav-items {
+  font-style: normal;
   color: #fff;
   display: flex;
 }
@@ -42,10 +43,12 @@ a:not(:last-child) {
   margin-right: 20px;
 }
 .lang {
+  font-style: normal;
   color: #fff;
   display: flex;
   margin-left: auto;
   text-transform: uppercase;
+  flex: 0 1 100px;
 }
 .lang:nth-child(n) {
   cursor: pointer;
@@ -58,32 +61,38 @@ a:not(:last-child) {
 
 .section-content {
   display: flex;
-  justify-content: space-between;
   padding: 100px 0;
+  &__part1 {
+    flex: 1 1 600px;
+  }
+  &__part2 {
+    margin-left: auto;
+    flex: 0 1 100px;
+  }
 }
-.a-side {
-  width: 60%;
-}
-.title {
-  font-size: 50px;
+
+.main__title {
+  font-size: 42px;
+  font-style: normal;
   font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.b-side {
-  margin-left: auto;
-  // max-width: 10%;
+.title__desc {
+  font-style: normal;
 }
+
 .count-row {
+  font-style: normal;
 }
 .count-row:not(:last-child) {
   margin-bottom: 10px;
 }
 
 .count-num {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
 }
 .count-text {
