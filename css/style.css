@@ -34,10 +34,30 @@ body {
   max-width: 1000px;
 }
 
+.page__title {
+  font-size: 36px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.section__title {
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+}
+
+.block__title {
+  font-size: 16px;
+  color: #333333;
+  font-weight: 700;
+  font-style: normal;
+}
+
 .title-big {
   font-size: 28px;
   font-weight: 700;
-  color: #222;
+  color: #333333;
   font-style: normal;
 }
 
@@ -219,13 +239,6 @@ a:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.tours-header .header-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  color: #333333;
-}
-
 .tours-header .header-link {
   font-size: 16px;
   color: #a2b503;
@@ -238,8 +251,15 @@ a:not(:last-child) {
 }
 
 .tours-cards .a-side {
-  width: 50%;
-  max-height: 500px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+}
+
+.tours-cards .b-side {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
 }
 
 .card-img > img {
@@ -450,6 +470,8 @@ a:not(:last-child) {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px;
+  border-radius: 4px;
+  overflow: hidden;
 }
 
 .travel__img {
@@ -464,15 +486,15 @@ a:not(:last-child) {
 
 .travel__img-wrap {
   position: relative;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 0 550px;
-          flex: 0 0 550px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 550px;
+          flex: 1 1 550px;
 }
 
 .travel__content {
   -webkit-box-flex: 1;
-      -ms-flex: auto;
-          flex: auto;
+      -ms-flex: 1 1 250px;
+          flex: 1 1 250px;
   background-color: #fff;
 }
 
@@ -492,15 +514,17 @@ a:not(:last-child) {
 
 .travel__price {
   -webkit-box-flex: 1;
-      -ms-flex: auto;
-          flex: auto;
+      -ms-flex: 1 0 45%;
+          flex: 1 0 45%;
   text-align: center;
   padding: 7px;
   background-color: #333;
 }
 
 .travel__submit {
-  width: 180px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 55%;
+          flex: 1 0 55%;
   background-color: #a2b503;
   padding: 7px;
   text-align: center;

@@ -26,6 +26,8 @@
   &__item {
     display: flex;
     margin-bottom: 20px;
+    border-radius: 4px;
+    overflow: hidden;
   }
   //IMGGGG!!!!!!!!!!! // TODO: sdffsf
   &__img {
@@ -38,15 +40,13 @@
     width: 100%;
 
     &-wrap {
-      // width: 600px;
       position: relative;
-      flex: 0 0 550px;
-      // height: ;
+      flex: 1 1 550px;
     }
   }
 
   &__content {
-    flex: auto;
+    flex: 1 1 250px;
     background-color: #fff;
   }
 
@@ -63,14 +63,14 @@
   }
 
   &__price {
-    flex: auto;
+    flex: 1 0 45%;
     text-align: center;
     padding: 7px;
     background-color: #333;
   }
 
   &__submit {
-    width: 180px;
+    flex: 1 0 55%;
     background-color: $secondary-color;
     padding: 7px;
     text-align: center;
