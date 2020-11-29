@@ -553,4 +553,38 @@ a:not(:last-child) {
   fill: #a2b503;
   margin-bottom: 5px;
 }
+
+.our-team__cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.our-team__card {
+  max-width: calc(33% - 20px);
+  margin: 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.our-team__img-wrap {
+  min-height: 200px;
+  width: auto;
+}
+
+.our-team__info {
+  color: #fff;
+  background-color: #333;
+}
+
+.our-team__social {
+  width: 24px;
+  height: auto;
+  fill: #a2b503;
+  color: #a2b503;
+}
 /*# sourceMappingURL=style.css.map */
