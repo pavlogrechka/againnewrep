@@ -5,7 +5,6 @@
 }
 
 html {
-  color: #fff;
   font-size: 12px;
   font-style: italic;
   line-height: 1.6;
@@ -528,5 +527,30 @@ a:not(:last-child) {
   background-color: #a2b503;
   padding: 7px;
   text-align: center;
+}
+
+.advantages__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.advantages__item {
+  margin: 0 10px;
+  max-width: calc(33% - 20px);
+  padding: 30px 30px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.advantages__item__img {
+  width: 50px;
+  height: 50px;
+  fill: #a2b503;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
