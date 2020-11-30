@@ -1,15 +1,17 @@
-.tours-header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-
-  .header-link {
-    font-size: 16px;
-    color: $secondary-color;
+.tours {
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
   }
 }
 
-.tours-cards {
+.header__link {
+  font-size: 16px;
+  color: $secondary-color;
+}
+
+.tours__cards {
   display: flex;
   .a-side {
     flex: 1 1 50%;
@@ -28,7 +30,7 @@
   height: 350px;
 }
 
-.card-content {
+.card__content {
   display: flex;
   justify-content: space-between;
   border-bottom-left-radius: 4px;
@@ -40,18 +42,18 @@
 .side1 {
   padding: 10px 20px;
 }
-.card-date {
+.card__date {
   color: $secondary-color;
   margin-bottom: 10px;
 }
-.card-title {
+.card__title {
   font-size: 16px;
   color: $main-color;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-.card-desc {
+.card__desc {
   color: $main-color;
   font-size: 10px;
   font-style: italic;
@@ -61,7 +63,7 @@
 .side2 {
 }
 
-.card-price {
+.card__price {
   height: 50%;
   min-width: 100px;
   color: #fff;
@@ -70,7 +72,7 @@
   text-align: center;
   padding: 20px 0;
 }
-.card-button {
+.card__button {
   text-align: center;
   padding: 20px 0;
   height: 50%;
@@ -91,7 +93,7 @@
   object-fit: cover;
 }
 
-.side2-content {
+.side2__content {
   display: flex;
   & > .card-price {
     height: auto;
@@ -101,6 +103,6 @@
   }
 }
 
-.side1-content {
+.side1__content {
   padding: 10px 20px;
 }
