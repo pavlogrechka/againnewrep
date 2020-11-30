@@ -29,7 +29,9 @@
   display: block;
   height: 350px;
 }
-
+.card__block:not(:last-child) {
+  margin-bottom: 20px;
+}
 .card__content {
   display: flex;
   justify-content: space-between;
@@ -64,7 +66,6 @@
 }
 
 .card__price {
-  height: 50%;
   min-width: 100px;
   color: #fff;
   font-size: 16px;
@@ -75,7 +76,6 @@
 .card__button {
   text-align: center;
   padding: 20px 0;
-  height: 50%;
   min-width: 100px;
   background-color: $secondary-color;
 }
@@ -95,14 +95,11 @@
 
 .side2__content {
   display: flex;
-  & > .card-price {
-    height: auto;
-  }
-  & > .card-button {
-    height: auto;
-  }
 }
 
 .side1__content {
   padding: 10px 20px;
+}
+
+@media screen and (max-width: 992px) {
 }
